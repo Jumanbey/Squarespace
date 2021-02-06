@@ -10,9 +10,6 @@ module.exports = {
         'h-banner': '85vh',
         '97': '26rem'
       },
-      inset: {
-        '(-105)': '105%',
-       }
     },
     minWidth: {
       '1/4': '25%',
@@ -20,6 +17,10 @@ module.exports = {
       '3/4': '75%',
       'full': '100%',
     },
+    inset: {
+      '(-105)': '105%',
+      '95': '95%',
+    }
   },
   variants: {
     extend: {},

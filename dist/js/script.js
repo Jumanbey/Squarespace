@@ -30,6 +30,14 @@ $(document).ready(function(){
     focusOnSelect: true,
     mobileFirst: true,
     initialSlide: 1,
-  
+    pauseOnFocus: false,
+    pauseOnHover:false,
+    draggable: false,
+    asNavFor:".slider-pag",
   });
+  $('.slider-pag').slick({
+    arrows: false,
+    asNavFor: ".slider",
+    fade: true,
+  })
 });
